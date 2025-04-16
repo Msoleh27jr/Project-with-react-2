@@ -1,0 +1,269 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  max-width: 1900px;
+  margin: auto;
+  background-image: url('./assets/hero-6-cover.png');
+  height: 1200px;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+.firstSection {
+  max-width: 1400px;
+  margin: auto;
+  height: 85%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.firstSection h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(35, 166, 240, 1);
+}
+h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  color: white;
+  width: 500px;
+  line-height: 90px;
+}
+.firstSection p {
+  font-size: 25px;
+  font-family: sans-serif;
+  width: 570px;
+  color: rgba(255, 255, 255, 1);
+}
+.smallSection {
+  max-width: 1400px;
+  margin: auto;
+  height: 400px;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.secondSection {
+  max-width: 1600px;
+  margin: auto;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.secondSection h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.secondSection p {
+  font-size: 23px;
+  font-family: sans-serif;
+  color: rgba(115, 115, 115, 1);
+  width: 500px;
+  line-height: 35px;
+}
+.secondSection aside {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.thirdSection {
+  max-width: 1400px;
+  height: 1400px;
+  margin: auto;
+}
+.thirdSection h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(35, 166, 240, 1);
+}
+.thirdSection h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 15px 0px;
+}
+.thirdSection p {
+  font-size: 23px;
+  font-family: sans-serif;
+  width: 600px;
+  color: rgba(115, 115, 115, 1);
+  line-height: 30px;
+}
+.forThirdSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 900px;
+}
+.fourthSection {
+  max-width: 1400px;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fourthSection h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(35, 166, 240, 1);
+}
+.fourthSection h2 {
+  font-size: 45px;
+  font-family: sans-serif;
+}
+.fourthSection p {
+  font-size: 23px;
+  font-family: sans-serif;
+  color: rgba(115, 115, 115, 1);
+  width: 580px;
+  line-height: 35px;
+  text-align: center;
+}
+.forInput {
+  width: 600px;
+  display: flex;
+  margin-top: 90px;
+}
+.forInput input {
+  width: 100%;
+  padding: 0px 20px;
+}
+footer {
+  max-width: 1400px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footerBox {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerBox h2{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.footerBox p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(115, 115, 115, 1);
+}
+.downfooter {
+  max-width: 1900px;
+  margin: auto;
+  background-color: rgba(250, 250, 250, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.downfooter h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(115, 115, 115, 1);
+}
+@media(max-width: 450px){
+  header {
+    width: 100%;
+    height: 100%;
+  }
+  .firstSection {
+    width: 90%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+    width: 100%;
+  }
+  .firstSection p {
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 90%;
+    color: rgba(255, 255, 255, 1);
+  }
+  .smallSection {
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    align-items: center; 
+    margin-top: 30px;
+  }
+  .secondSection {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+  }
+  .secondSection img {
+    width: 90%;
+  }
+  .secondSection aside {
+    align-items: center;
+    width: 90%;
+  }
+  .secondSection p {
+    width: 100%;
+  }
+  .thirdSection {
+    width: 90%;
+    height: 100%;
+  }
+  .thirdSection p {
+    width: 100%;
+  }
+  .thirdSection h3 {
+    text-align: center;
+  }
+  .thirdSection h2 {
+    text-align: center;
+  }
+  .forThirdSec {
+    flex-direction: column;
+    height: 100%;
+  }
+  .thirdSection {
+    flex-direction: column;
+  }
+  .forThirdp {
+    text-align: center;
+  }
+  .fourthSection {
+    width: 90%;
+  }
+  .fourthSection p {
+    width: 100%;
+  }
+  .forInput {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+  }
+  .footerBox {
+    width: 90%;  
+  }
+  .downfooter h2 {
+    font-size: 12px;
+  }
+  .downfooter {
+    height: 80px;
+  }
+}

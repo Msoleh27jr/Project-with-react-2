@@ -1,0 +1,33 @@
+.box {
+    box-shadow: 0px 10px 40px rgba(115, 115, 115, 0.61);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+  }
+  
+  .box-title {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  
+  .box-line {
+    width: 100px;
+    border: 1px solid;
+  }
+  
+  .box-text {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  @media(max-width: 450px){
+    .box {
+        width: 300px;
+        height: 300px;
+    }
+  }

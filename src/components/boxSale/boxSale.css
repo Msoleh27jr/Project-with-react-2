@@ -1,0 +1,70 @@
+.box-sale {
+  width: 400px;
+  height: 750px;
+}
+
+.box-sale-img {
+  width: 100%;
+}
+
+.box-sale-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.box-sale-header {
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.box-sale-title {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.box-sale-text {
+  font-size: 20px;
+  width: 100%;
+  line-height: 20px;
+}
+
+.box-sale-sales {
+  display: flex;
+  gap: 10px;
+  color: rgba(115, 115, 115, 1);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.box-sale-price {
+  display: flex;
+  gap: 10px;
+  color: rgba(189, 189, 189, 1);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.discount-price {
+  color: rgba(64, 187, 21, 1);
+}
+
+.learn-more-btn {
+  color: rgba(35, 166, 240, 1);
+  font-size: 16px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 1px solid rgba(35, 166, 240, 1);
+  background-color: transparent;
+  cursor: pointer;
+}
+@media(max-width: 450px){
+    .box-sale {
+        width: 90%;
+    }
+}

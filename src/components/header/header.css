@@ -1,0 +1,32 @@
+.nav-container {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-list {
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 40px;
+}
+@media(max-width : 450px){
+    .nav-container {
+        width: 90%;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-buttons {
+        display: none;
+    }
+}
