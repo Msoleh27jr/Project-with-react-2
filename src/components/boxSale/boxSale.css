@@ -4,19 +4,20 @@
 }
 
 .box-sale-img {
-  width: 100%;
+    width: 100%;
 }
 
 .box-sale-content {
-  padding: 20px;
-  display: flex;
+    width: 90%;
+    padding: 20px;
+    display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: start;
 }
 
 .box-sale-header {
-  font-size: 20px;
+    font-size: 20px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -28,9 +29,8 @@
 }
 
 .box-sale-text {
-  font-size: 20px;
-  width: 100%;
-  line-height: 20px;
+   font-size: 20px;
+   line-height: 20px;
 }
 
 .box-sale-sales {

@@ -11,7 +11,7 @@ const BoxSale = ({ img, name, text, star, install, about }) => {
             English Department <img src={star} alt="" />
           </h3>
           <h4 className="box-sale-title">{name}</h4>
-          <p className="box-sale-text">{text}</p>
+          <p className="box-sale-text" style={{width : '90%'}}>{text}</p>
           <h4 className="box-sale-sales">
             <img src={install} alt="" /> 15 Sales
           </h4>
